@@ -336,6 +336,10 @@
   display: block;
 }
 
+.content_inner .accardion_section .active .title span::before {
+  display: none;
+}
+
 .content_inner .nav_bar_modile_inner nav ul li:first-child a::before {
   display: none;
 }

@@ -309,6 +309,14 @@
             .content_item{
                 display: block;
             }
+            .title{
+                span{
+                    &::before{
+                        display: none;
+                        
+                    }
+                }
+            }
         }
     }
 
